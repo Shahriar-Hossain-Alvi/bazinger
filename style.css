@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-item li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+nav{
+    border-bottom: 1px solid #131e29;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.banner-right h1{
+    font-family: 'Lato', sans-serif;  
+}
+
+.banner-right p{
+    font-family: 'Lato', sans-serif;  
+}
+
+.banner-buttons button{
+    font-family: 'Lato', sans-serif; 
+}
+
+.banner-icons p{
+    font-family: 'Lato', sans-serif; 
+}
+
+.banner-left img {
+    top: -46px;
+    left: -15px;
+    transform: rotate(-15deg);
+}
+
+.section-head{
+    font-family: 'Lato', sans-serif;
+    @apply text-center text-[#414042] capitalize pb-2
+}
+
+.section-head h2{
+    @apply text-3xl font-bold
+}
+
+.section-head p{
+    @apply text-sm text-[#818182] pb-4
+}
+
+.feature-icon-container {
+    height: 100%;
+}
+
+.video-head h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.price-item{
+    font-family: 'Lato', sans-serif;
+}
+
+.download-text{
+    font-family: 'Lato', sans-serif;
+}
+
+.download-text button{
+    box-shadow: 0 2px #277697;
+}
+
+form input{
+    font-family: 'Lato', sans-serif;
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: #d4d3d3;
+    text-align: center;
+}
+
+footer h4{
+    font-family: 'Lato', sans-serif;
+}
